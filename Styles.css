@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    background-image: url('hearts_background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #ff4d6d;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.dedication {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.message-box {
+    margin: 20px auto;
+    width: 80%;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.button-container {
+    margin: 20px;
+    position: relative;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 10px;
+}
+
+#yesButton {
+    background-color: pink;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #ff7f9f;
+}
+
+#noButton {
+    background-color: lightgray;
+    color: #333;
+}
+
+#noButton:hover {
+    background-color: #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+#happyMessage {
+    margin-top: 20px;
+}
+
+#happyMessage img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .dedication {
+        font-size: 18px;
+    }
+
+    .message-box {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
